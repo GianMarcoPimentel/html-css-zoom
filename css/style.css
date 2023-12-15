@@ -20,11 +20,19 @@ nav{
     position: fixed;
     z-index: 1;
 }
-nav ul{
+nav .functions ul{
     display: flex;
     gap: 20px;
     list-style-type: none;
 
+}
+
+nav .settings-user ul{
+    color: white;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
 }
 .fa{
     color: white;
@@ -32,8 +40,9 @@ nav ul{
     margin:8px;
     text-align: middle;
 }
-.settings-user{
-    color: white;
+.fa-angle-up{
+    text-align: middle;
+    font-size: 0.8em;
 }
 nav .end-meeting{
     background-color: #4A4A4A;
