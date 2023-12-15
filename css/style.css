@@ -22,12 +22,16 @@ nav{
 
     background-color: #222222;
     display: flex;
+    justify-content: space-between;
     position: absolute;
     bottom: 0;
     right: 0;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
 
-  
-  
 }
 h1{
    /*  color: #ffffff; */
@@ -38,4 +42,20 @@ h1{
 }
 .fa{
     color: white;
+    font-size: 2em;
+    margin:8px;
+    text-align: middle;
+}
+.settings{
+    color: white;
+}
+nav .end-meeting{
+    background-color: #4A4A4A;
+    color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+
 }
