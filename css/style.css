@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* reset */
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+  
+
+}
+nav{
+    width: 100vw;
+    height: 60px;
+
+    background-color: #222222;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+  
+  
+}
+h1{
+   /*  color: #ffffff; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+.fa{
+    color: white;
+}
