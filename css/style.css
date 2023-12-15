@@ -75,10 +75,12 @@ header .settings-zoom ul .view , .settings-zoom ul .screen{
 }
 
 .container{
-    width: 80%;
+    width: 1250px;
 
     padding: 60px;
 
     background-color: white;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
