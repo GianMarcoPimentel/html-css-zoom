@@ -10,7 +10,7 @@ body{
     height: 100vh;
     position: relative;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     
   
@@ -46,7 +46,7 @@ h1{
     margin:8px;
     text-align: middle;
 }
-.settings{
+.settings-user{
     color: white;
 }
 nav .end-meeting{
@@ -58,4 +58,42 @@ nav .end-meeting{
     align-items: center;
     padding: 0px 20px;
 
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-color: white;
+}
+header .settings-zoom{
+    color: white;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.settings-zoom ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+.settings-zoom ul .text{
+    text-align: middle;
+    font-size: 2em;
+    padding-right: 3px;
+}
+
+.settings-zoom ul .view , .settings-zoom ul .screen{
+    background-color: #4A4A4A;
+    border-radius: 8px;
+
+    padding: 1px;
+
+    font-size: 0.4em;
+    text-align: center;
+    
 }
