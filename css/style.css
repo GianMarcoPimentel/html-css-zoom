@@ -18,6 +18,7 @@ nav{
     bottom: 0;
     right: 0;
     position: fixed;
+    z-index: 1;
 }
 nav ul{
     display: flex;
@@ -80,16 +81,13 @@ header .settings-zoom ul .view , .settings-zoom ul .screen{
 }
 #photo-container{
 
-    border: dashed 2px red;
-
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 #photo-container .col{
     width: calc(100% / 7 - 1px);
-    height: 150px;
-    background-color: grey;
+   
     border: black 1px solid;
 
     padding: 2px;
@@ -100,13 +98,26 @@ header .settings-zoom ul .view , .settings-zoom ul .screen{
 #photo-container .col:nth-last-of-type(7n + 1){
     padding-right: 0;
 }
-/* .container{
-    width: 1250px;
+#photo-container .col .col-inner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#photo-container .col .col-inner img{
+    width: 100%;
 
-    padding: 60px;
+    display: block;
+}
+#photo-container .col .col-inner .tag{
+    color: white;
+    background-color: rgba(0, 0, 0, 80%);
 
-    background-color: white;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-} */
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    
+}
+#photo-container .col .col-inner .tag .fa{
+    font-size: 1em;
+}
+
