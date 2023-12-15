@@ -6,15 +6,6 @@
 /* reset */
 body{
     background-color: black;
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  
-
 }
 nav{
     width: 100vw;
@@ -26,19 +17,13 @@ nav{
     position: absolute;
     bottom: 0;
     right: 0;
+    position: fixed;
 }
 nav ul{
     display: flex;
     gap: 20px;
     list-style-type: none;
 
-}
-h1{
-   /*  color: #ffffff; */
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    
 }
 .fa{
     color: white;
@@ -59,35 +44,26 @@ nav .end-meeting{
     padding: 0px 20px;
 
 }
-
-.container{
-    width: 100%;
-    height: 100%;
-    padding: 60px;
-    /* margin-left: auto;
-    margin-right: auto; */
-    background-color: white;
-}
 header .settings-zoom{
     color: white;
     display: flex;
-    z-index: 1;
-    position: absolute;
-    top: 10px;
-    right: 10px;
+    justify-content: flex-end;
+
 }
-.settings-zoom ul{
+header .settings-zoom ul{
+    margin: 5px;
     list-style-type: none;
     display: flex;
+    
     gap: 15px;
 }
-.settings-zoom ul .text{
+header .settings-zoom ul .text{
     text-align: middle;
     font-size: 2em;
     padding-right: 3px;
 }
 
-.settings-zoom ul .view , .settings-zoom ul .screen{
+header .settings-zoom ul .view , .settings-zoom ul .screen{
     background-color: #4A4A4A;
     border-radius: 8px;
 
@@ -96,4 +72,13 @@ header .settings-zoom{
     font-size: 0.4em;
     text-align: center;
     
+}
+
+.container{
+    width: 80%;
+
+    padding: 60px;
+
+    background-color: white;
+    display: flex;
 }
