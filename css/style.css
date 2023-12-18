@@ -24,7 +24,8 @@ nav{
     
    
 }
-nav .functions-left {
+nav .functions-left , 
+nav .functions-central {
     /* height: 100%; */
     display: flex ;
     gap: 10px;
@@ -43,10 +44,10 @@ nav .functions-left {
     position: relative;
 }
 .button .icons {
-    font-size: 30px;
+    font-size: 20px;
 }
 .button .text{
-    font-size: 10px;
+    font-size: 12px;
 }
 /* Inserisco la chevron tramite css e non html, aggungo una classe vicino alla classe button e siccome voglio che a chevron stia dopo l'icona la stilizzo con ::after nel css*/
 .button.chevron {
@@ -64,6 +65,9 @@ nav .functions-left {
 .chevron{
     font-size: 12px;
 }
+.fa-share-from-square {
+    color: #4BC800;
+}
 
 nav .end-meeting{
     background-color: #4A4A4A;
@@ -77,6 +81,7 @@ nav .end-meeting{
     padding: 0px 20px;
 
 } 
+/* fine nav */
 header .settings-zoom{
     color: white;
     display: flex;
