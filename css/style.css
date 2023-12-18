@@ -82,35 +82,45 @@ nav .end-meeting{
 
 } 
 /* fine nav */
-header .settings-zoom{
+
+/* Inizio header */
+header{
     color: white;
     display: flex;
     justify-content: flex-end;
 
+    position: fixed;
+    right: 0;
+    top: 0;
+
 }
-header .settings-zoom ul{
-    margin: 5px;
-    list-style-type: none;
+header .settings-zoom{
     display: flex;
-    
-    gap: 15px;
+    gap: 10px;
 }
-header .settings-zoom ul .text{
+
+header .settings-zoom .text{
     text-align: middle;
-    font-size: 2em;
+    font-size: 15px;
     padding-right: 3px;
 }
 
-header .settings-zoom ul .view , .settings-zoom ul .screen{
+header .settings-zoom .speaker {
     background-color: #4A4A4A;
     border-radius: 8px;
 
     padding: 1px;
 
-    font-size: 0.4em;
+    font-size: 20px;
     text-align: center;
-    
 }
+header .settings-zoom .screen {
+    background-color: #4A4A4A;
+    border-radius: 8px;
+    padding: 2px;
+
+    /* transform: rotate(45Deg);
+} */
 .container{
     max-width: 1250px;
     margin-left: auto;
