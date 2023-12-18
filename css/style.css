@@ -21,6 +21,7 @@ nav{
     position: fixed;
     bottom: 0;
     right: 0;
+    z-index: 1;
     
    
 }
@@ -45,6 +46,10 @@ nav .functions-central {
 }
 .button .icons {
     font-size: 20px;
+}
+.button:hover {
+    background-color: #4A4A4A;
+    border-radius: 8px;
 }
 .button .text{
     font-size: 12px;
@@ -119,8 +124,8 @@ header .settings-zoom .screen {
     border-radius: 8px;
     padding: 2px;
 
-    /* transform: rotate(45Deg);
-} */
+    /* transform: rotate(45Deg);*/
+} 
 .container{
     max-width: 1250px;
     margin-left: auto;
